@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".get_started_page">
+
+    <LinearLayout
+        android:id="@+id/linear_header"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@color/Main_Color_Application"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:padding="15dp"
+            android:src="@drawable/application_icon"
+            android:contentDescription="@string/todo" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="@string/app_name"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:layout_marginBottom="55dp"/>
+    </LinearLayout>
+    <VideoView
+        android:id="@+id/videoView"
+        android:layout_width="wrap_content"
+        android:layout_height="226dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="192dp"
+        android:layout_marginEnd="0dp" />
+
+    <LinearLayout
+        android:id="@+id/MainLinearUI"
+        android:orientation="vertical"
+        android:layout_marginTop="390dp"
+        android:gravity="center"
+        android:background="@color/Main_Color_Application"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/welcome"
+            android:layout_below="@id/videoView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/welcome"
+            android:textColor="@color/white"
+            android:layout_centerHorizontal="true"
+            android:textSize="30sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"
+            tools:ignore="ObsoleteLayoutParam" />
+        <TextView
+            android:id="@+id/text_welcome"
+            android:layout_below="@id/welcome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/welcome_users"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:paddingEnd="40dp"
+            android:paddingStart="40dp"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="55dp"
+            tools:ignore="ObsoleteLayoutParam,RtlSymmetry" />
+
+    <LinearLayout
+        android:id="@+id/MainLinear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/text_welcome"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        tools:ignore="ObsoleteLayoutParam,UselessParent">
+        <LinearLayout
+            android:id="@+id/Admin_Button"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:layout_marginBottom="25dp"
+            android:background="@drawable/button_1_style"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/admin_image"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:padding="10dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_person"
+                android:contentDescription="@string/admin" />
+            <TextView
+                android:id="@+id/admin_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/admin"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:layout_gravity="center"
+                android:layout_marginStart="55dp"
+                android:padding="10dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/user_Button"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:background="@drawable/button_2_style"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/user_image"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:src="@drawable/baseline_groups_24"
+                android:contentDescription="@string/admin" />
+            <TextView
+                android:id="@+id/user_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/users"
+                android:textColor="@color/Main_Color_Application"
+                android:textSize="20sp"
+                android:layout_gravity="center"
+                android:layout_marginStart="55dp"
+                android:padding="10dp"
+                />
+        </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Main_Color_Application"
+    android:padding="25dp"
+    >
+<EditText
+    android:id="@+id/comment"
+    android:layout_width="250dp"
+    android:layout_height="wrap_content"
+    android:hint="@string/enter_you_r_comment"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:textColorHighlight="@color/white"
+    android:textColorHint="@color/white"
+    android:padding="10dp"
+    android:background="@drawable/background_plain_text_style"
+    android:textColor="@color/white"
+    android:textSize="18sp"
+    android:layout_margin="15dp"
+    android:importantForAutofill="no"
+    tools:ignore="LabelFor,TextFields" />
+    <Button
+        android:id="@+id/post_comment"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/add"
+        android:textColor="@color/Main_Color_Application"
+        android:background="@drawable/button_2_style"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        />
+</LinearLayout>

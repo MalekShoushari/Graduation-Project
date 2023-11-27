@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:background="@color/Main_Color_Application_toolBarApp"
+    android:elevation="4dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/account"
+        android:textSize="28sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:contentDescription="@string/app_name" />
+    <ImageView
+        android:id="@+id/check"
+        android:visibility="invisible"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/baseline_check"
+        android:layout_marginEnd="15dp"
+        android:layout_gravity="end"
+        android:contentDescription="@string/app_name" />
+    <ImageView
+        android:id="@+id/cancel"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/baseline_clear_24"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="start"
+        android:contentDescription="@string/app_name" />
+</androidx.appcompat.widget.Toolbar>

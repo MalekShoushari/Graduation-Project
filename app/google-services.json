@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "394021572108",
+    "project_id": "tourism-in-jordan",
+    "storage_bucket": "tourism-in-jordan.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:394021572108:android:a5dff1a4215ff6978aa829",
+        "android_client_info": {
+          "package_name": "com.example.tourisminjordan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "394021572108-krdcmfcpfl72vlfdmcuh7m1jk3orjhr4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tourisminjordan",
+            "certificate_hash": "3de00d9a7818fe2ecb9e04cfda07c0d0f193e271"
+          }
+        },
+        {
+          "client_id": "394021572108-uk1kp27a37v31qpar4mjl0a6eug9uqaj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQ2xsrnd0cb6BaQOWIjLWUNZRjpJTzKCM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "394021572108-uk1kp27a37v31qpar4mjl0a6eug9uqaj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

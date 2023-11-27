@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/Main_Color_Application_toolBarApp"
+    android:elevation="4dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+    app:popupTheme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/logo_without_background"
+        android:layout_gravity="center"
+        android:contentDescription="@string/app_name" />
+
+    <ImageView
+        android:id="@+id/nav_menu"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/baseline_menu_24"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="start"
+        android:contentDescription="@string/app_name" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        app:cardCornerRadius="500dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="5dp"
+        android:id="@+id/image_card_view"
+        android:layout_gravity="end">
+        <ImageView
+            android:id="@+id/profile_image"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:src="@drawable/com_facebook_profile_picture_blank_portrait"
+            android:layout_gravity="center"
+            android:contentDescription="@string/app_name" />
+    </androidx.cardview.widget.CardView>
+</androidx.appcompat.widget.Toolbar>

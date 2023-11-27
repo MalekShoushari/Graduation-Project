@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn ="navigation_view">
+<item android:title="@string/general">
+    <menu>
+<item android:id="@+id/nav_account"
+    android:icon="@drawable/ic_person_white"
+    android:title="@string/account"/>
+    <item android:id="@+id/nav_setting"
+        android:icon="@drawable/ic_settings_white"
+        android:title="@string/settings"/>
+    <item android:id="@+id/nav_about"
+        android:icon="@drawable/ic_about_white"
+        android:title="@string/about"/>
+        <item
+            android:id="@+id/logout_menu_item"
+            android:icon="@drawable/ic_logout_white"
+            android:title="@string/logout" />
+    </menu>
+</item>
+    <item android:title="@string/places">
+        <menu>
+            <item android:id="@+id/nav_Provinces"
+                android:icon="@drawable/provinces"
+                android:title="@string/provinces"/>
+            <item android:id="@+id/nav_museum"
+                android:icon="@drawable/museum"
+                android:title="@string/museum"/>
+            <item android:id="@+id/nav_antiquities"
+                android:icon="@drawable/antiquities"
+                android:title="@string/antiquities"/>
+            <item android:id="@+id/nav_tourist_places"
+                android:icon="@drawable/tourist_places"
+                android:title="@string/tourist_places"/>
+        </menu>
+    </item>
+
+</menu>

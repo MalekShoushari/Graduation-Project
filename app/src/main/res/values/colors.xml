@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="black_card_view">#8D0B2239</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="Main_Color_Application">#0b2239</color>
+    <color name="Main_Color_Application_toolBar">#05111D</color>
+    <color name="Main_Color_Application_toolBarApp">#081A2B</color>
+    <color name="Background_Main_Color_Application">#DD0B2239</color>
+    <color name="plain_text_color">#868F8E8E</color>
+    <color name="Background_lang">#5B0B2239</color>
+    <color name="my_button_color">#FFFFFF</color>
+    <color name="my_person_color">#C5CAE9</color>
+    <color name="my_button_color_1">#4942CE</color>
+    <color name="my_search_color_1">#2C05F2</color>
+    <color name="main_text_color">#F7CE9E</color>
+</resources>

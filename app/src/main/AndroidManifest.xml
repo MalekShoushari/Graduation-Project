@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+
+    <application
+        android:configChanges="locale|layoutDirection"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/main_ic_launcher_icon_application"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TourismInJordan"
+        tools:targetApi="31">
+        <activity
+            android:name=".setting_page"
+            android:exported="false" />
+        <activity
+            android:name=".edit_profile_name"
+            android:exported="false" />
+        <activity
+            android:name=".user_list"
+            android:exported="false" />
+        <activity
+            android:name=".dashboard_admin"
+            android:exported="false" />
+        <activity
+            android:name=".entry_info"
+            android:exported="false" />
+        <activity
+            android:name=".verify_email_address"
+            android:exported="false" />
+        <activity
+            android:name=".tourists_page"
+            android:exported="false" />
+        <activity
+            android:name=".antiquities_page"
+            android:exported="false" />
+        <activity
+            android:name=".museums_page"
+            android:exported="false" />
+        <activity
+            android:name=".About_page"
+            android:exported="false" />
+        <activity
+            android:name=".Profile_page"
+            android:exported="false" />
+        <activity
+            android:name=".Karak_page"
+            android:exported="false" />
+        <activity
+            android:name=".Tafilah_page"
+            android:exported="false" />
+        <activity
+            android:name=".Madaba_page"
+            android:exported="false" />
+        <activity
+            android:name=".Aqaba_page"
+            android:exported="false" />
+        <activity
+            android:name=".Jerash_page"
+            android:exported="false" />
+        <activity
+            android:name=".Irbid_page"
+            android:exported="false" />
+        <activity
+            android:name=".Ajloun_page"
+            android:exported="false" />
+        <activity
+            android:name=".Maan_page"
+            android:exported="false" />
+        <activity
+            android:name=".Mafraq_page"
+            android:exported="false" />
+        <activity
+            android:name=".Zarqa_page"
+            android:exported="false" />
+        <activity
+            android:name=".salt_page"
+            android:exported="false" />
+        <activity
+            android:name=".places_info_page"
+            android:exported="false" />
+        <activity
+            android:name=".amman_page"
+            android:exported="false" />
+        <activity
+            android:name=".provinces_page"
+            android:exported="false" />
+        <!--
+             TODO: Before you run your application, you need a Google Maps API key.
+
+             To get one, follow the directions here:
+
+                https://developers.google.com/maps/documentation/android-sdk/get-api-key
+
+             Once you have your API key (it starts with "AIza"), define a new property in your
+             project's local.properties file (e.g. MAPS_API_KEY=Aiza...), and replace the
+             "YOUR_API_KEY" string in this file with "${MAPS_API_KEY}".
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="YOUR_API_KEY" />
+
+        <activity
+            android:name=".successfully_page"
+            android:exported="false" />
+        <activity
+            android:name=".NewPassword"
+            android:exported="false" />
+        <activity
+            android:name=".Verification"
+            android:exported="false" />
+        <activity
+            android:name=".Forget_Password"
+            android:exported="false" />
+        <activity
+            android:name=".signUp_page"
+            android:exported="false" />
+        <activity
+            android:name=".login_admin"
+            android:exported="false" />
+        <activity
+            android:name=".get_started_page"
+            android:exported="false" />
+        <activity
+            android:name=".application_UI"
+            android:exported="false" />
+        <activity
+            android:name=".login_user"
+            android:exported="false" />
+        <activity
+            android:name=".splashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
